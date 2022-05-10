@@ -1,3 +1,5 @@
+@import url("media-queries.css");
+
 :root{
     --color-graytext: #727272;
     --color-darkgray: #162326;
@@ -78,3 +80,16 @@ header{
     width: 100%;
 }
 
+.devicescard img{
+    width: 100%;
+}
+
+.periferiche{
+    opacity: .75;
+}
+
+.periferiche:hover{
+    cursor: pointer;
+    border-bottom: solid 2px var(--color-playblue);
+    opacity: 1;
+}
