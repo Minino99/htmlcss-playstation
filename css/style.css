@@ -1,11 +1,17 @@
+:root{
+    --color-graytext: #727272;
+    --color-darkgray: #162326;
+    --color-lightgray: #ADADAD;
+    --color-playblue: #2586D5;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 header{
     position: sticky;
+    top: 0;
 }
 
 .btn{
@@ -14,7 +20,7 @@ header{
 }
 
 .btn-dark{
-    background-color: #162326;
+    background-color: var(--color-darkgray);
     color: #fff;
 }
 
@@ -31,7 +37,7 @@ header{
 
 .headernav i{
     font-size: 0.7rem;
-    color: #ADADAD;
+    color: var(--color-lightgray);
 }
 
 .headernav .lens{
@@ -60,4 +66,15 @@ header{
     border-radius: 1rem;
 }
 
+.color-textgray{
+    color: var(--color-graytext);
+}
+
+.color-playblue{
+    color: var(--color-playblue);
+}
+
+.playshowcase img{
+    width: 100%;
+}
 
