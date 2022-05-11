@@ -11,6 +11,7 @@
     --color-playblue: #2586D5;
     --color-bgnewgames: #1F1F1F;
     --color-playplus: #BEBCBB;
+    --color-playnow: #161C3B;
 }
 
 body{
@@ -128,7 +129,12 @@ header{
     color: var(--color-playblue)
 }
 
-.bannerimg img{
-    width: 100%;
-    height: 100%;
+.playnow-section{
+    background-color: var(--color-playnow);
+    color: white;
+}
+
+.btn-now{
+    background-color: #F5F5F5;
+    color: black;
 }
