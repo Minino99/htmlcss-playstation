@@ -10,6 +10,7 @@
     --color-lightgray: #ADADAD;
     --color-playblue: #2586D5;
     --color-bgnewgames: #1F1F1F;
+    --color-playplus: #BEBCBB;
 }
 
 body{
@@ -116,4 +117,18 @@ header{
 
 .bold{
     font-weight: 700;
+}
+
+.playplus-section{
+    background-color: var(--color-playplus);
+}
+
+.btn-plus{
+    background-color: #D9DADC;
+    color: var(--color-playblue)
+}
+
+.bannerimg img{
+    width: 100%;
+    height: 100%;
 }

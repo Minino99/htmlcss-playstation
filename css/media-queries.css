@@ -1,5 +1,24 @@
+.navwrapper{
+    display: none;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: #727272;
+}
+
+@media screen and (max-width: 1200px){
+    .navelement{
+        display: none;
+    }
+    .navwrapper{
+        display: block;
+    }
+}
+
 @media screen and (max-width: 768px){
     .devicesdesc{
+        display: none;
+    }
+    .monthly-games{
         display: none;
     }
 }
