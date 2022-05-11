@@ -12,6 +12,7 @@
     --color-bgnewgames: #1F1F1F;
     --color-playplus: #BEBCBB;
     --color-playnow: #161C3B;
+    --color-footer: #00439C;
 }
 
 body{
@@ -137,4 +138,27 @@ header{
 .btn-now{
     background-color: #F5F5F5;
     color: black;
+}
+
+.footerbg{
+    background-color: var(--color-footer);
+    color: white;
+}
+
+.footerlogo{
+    max-width: 100px;
+}
+
+.footerlogo img{
+    width: 100%;
+}
+
+.selectlanguage i{
+    font-size: 1.4rem;
+    vertical-align: middle;
+    padding-right: 0.8rem;
+}
+
+.sielogo{
+    max-width: 150px;
 }
