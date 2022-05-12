@@ -1,10 +1,10 @@
 @import url("media-queries.css");
 
-*{
+* {
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --color-graytext: #727272;
     --color-darkgray: #162326;
     --color-lightgray: #ADADAD;
@@ -15,52 +15,55 @@
     --color-footer: #00439C;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 99;
 }
 
-.btn{
+.btn {
     border-radius: 2rem;
     font-weight: 700;
 }
 
-.btn-dark{
+.btn-dark {
     background-color: var(--color-darkgray);
     color: #fff;
+    border: 2px solid var(--color-darkgray);
+    outline: 2px solid var(--color-darkgray);
+    transition: border .3s;
 }
 
-.preheader{
+.preheader {
     height: 40px;
     background-color: black;
     display: flex;
     justify-content: flex-end;
 }
 
-.headernav{
+.headernav {
     height: 80px;
 }
 
-.headernav i{
+.headernav i {
     font-size: 0.7rem;
     color: var(--color-lightgray);
 }
 
-.headernav .lens{
+.headernav .lens {
     width: 25px;
 }
 
-.lens img{
+.lens img {
     width: 100%;
     height: 100%;
 }
 
-.jumbotron{
+.jumbotron {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
@@ -68,7 +71,7 @@ header{
     color: white;
 }
 
-.secondjumbotron{
+.secondjumbotron {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
@@ -76,96 +79,130 @@ header{
     color: white;
 }
 
-.jumbodesc img{
+.jumbodesc img {
     width: 50%;
 }
 
-.newgames-card img{
+.newgames-card img {
     width: 100%;
     border-radius: 1rem;
     transition: transform .3s, box-shadow .3s;
     cursor: pointer;
 }
 
-.color-textgray{
+.color-textgray {
     color: var(--color-graytext);
 }
 
-.color-playblue{
+.color-playblue {
     color: var(--color-playblue);
 }
 
-.playshowcase img{
+.playshowcase img {
     width: 100%;
 }
 
-.devicescard img{
+.devicescard img {
     width: 100%;
 }
 
-.periferiche{
+.periferiche {
     opacity: .75;
     border-bottom: solid 2px white;
 }
 
-.periferiche:hover{
+.periferiche:hover {
     cursor: pointer;
     border-bottom: solid 2px var(--color-playblue);
     opacity: 1;
 }
 
-.bg-newgames{
+.bg-newgames {
     background-color: var(--color-bgnewgames);
     color: white;
 }
 
-.bold{
+.bold {
     font-weight: 700;
 }
 
-.playplus-section{
+.playplus-section {
     background-color: var(--color-playplus);
 }
 
-.btn-plus{
+.btn-plus {
     background-color: #D9DADC;
-    color: var(--color-playblue)
+    color: var(--color-playblue);
+    border: 2px solid #D9DADC;
+    outline: 2px solid #D9DADC;
+    transition: border .3, outline 0.3s;
 }
 
-.playnow-section{
+.playnow-section {
     background-color: var(--color-playnow);
     color: white;
 }
 
-.btn-now{
+.btn-now {
     background-color: #F5F5F5;
     color: black;
+    border: 2px solid white;
+    outline: 2px solid white;
+    transition: border .3s;
 }
 
-.footerbg{
+.footerbg {
     background-color: var(--color-footer);
     color: white;
 }
 
-.footerlogo{
+.footerlogo {
     max-width: 100px;
 }
 
-.footerlogo img{
+.footerlogo img {
     width: 100%;
 }
 
-.selectlanguage i{
+.selectlanguage i {
     font-size: 1.4rem;
     vertical-align: middle;
     padding-right: 0.8rem;
 }
 
-.sielogo{
+.sielogo {
     max-width: 150px;
 }
 
-.newgames-card:hover img{
+.newgames-card:hover img {
     transform: translateY(-5px);
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.socials{
+    transition: transform .3s;
+}
+
+.socials:hover{
+    transform: scale(1.1);
+}
+
+.footerlinks div{
+    cursor: pointer;
+}
+
+.footerlinks div:hover{
+    text-decoration: underline;
+}
+
+.btn-dark:hover{
+    border: 2px solid white;
+}
+
+.btn-plus:hover{
+    border: 2px solid var(--color-playplus);
+}
+
+.btn-now:hover{
+    border: 2px solid var(--color-playnow);
 }
