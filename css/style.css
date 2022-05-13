@@ -15,6 +15,11 @@
     --color-footer: #00439C;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -135,7 +140,7 @@ header {
     color: var(--color-playblue);
     border: 2px solid #D9DADC;
     outline: 2px solid #D9DADC;
-    transition: border .3, outline 0.3s;
+    transition: border .3;
 }
 
 .playnow-section {
@@ -205,4 +210,8 @@ header {
 
 .btn-now:hover{
     border: 2px solid var(--color-playnow);
+}
+
+.text-decoration-underline{
+    cursor: pointer;
 }
